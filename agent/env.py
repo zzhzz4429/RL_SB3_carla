@@ -53,7 +53,7 @@ class CarlaEnv(gym.Env):
                     synchronous_mode=True,
                     fixed_delta_seconds=1.0 / fps,
                 ))
-            self.client.reload_world(False)  # reload map keeping the world settings
+            self.client.reload_world()  # reload map keeping the world settings
             self.map = self.world.get_map()
 
             # Spawn Vehicle
