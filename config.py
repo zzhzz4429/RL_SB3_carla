@@ -92,10 +92,12 @@ _CONFIG_1 = {
     "reward_fn": "reward_fn5",
     "reward_params": reward_params["reward_fn_5_best"],
     "obs_sensor": "semantic",
-    "obs_res": (80, 40),
+    "obs_res": (160, 704),
 }
+
 CONFIGS = {
     "1": _CONFIG_1
+    
 }
 CONFIG = None
 
